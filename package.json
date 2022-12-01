@@ -1,0 +1,23 @@
+{
+  "name": "image-gallery-",
+  "version": "1.0.0",
+  "description": "project done with html, css, js and tailwind css.",
+  "main": "gallery.js",
+  "scripts": {
+    "build": "tailwindcss -i ./gallery.css -o ./css/gallery.css",
+    "watch": "tailwindcss -i ./gallery.css -o ./css/gallery.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerryEda/image-gallery-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerryEda/image-gallery-/issues"
+  },
+  "homepage": "https://github.com/TerryEda/image-gallery-#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
